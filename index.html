@@ -7,42 +7,39 @@
          <title>FORMULAIRE D'INSCRIPTION</title>
 </head>
 <body>
-      <h1><b>FORMULAIRE D'INSCRIPTION</b></h1><br><br>
+            <h1><b>FORMULAIRE D'INSCRIPTION</b></h1><br><br>
       <Form>
 	     <label for="date">Choisir une date:</label>
          <input type="date" id="date" name="date" max="Aujourd'hui-limite"/> <br><br>
-         <label for="Nom">Nom: </label>		 
-		 *<input type="name" name="Nom"><br><br>
-          <label for="Prénom">Prénom: </label>		 
-		 *<input type="Prénom" name="Prénom"><br><br>
-		 <label for="Sexe">Sexe:<radio </label>		 
-		 *<input type="radio" name="Sexe" value="Masculin/>
+         <label for="Nom">*Nom: </label>		 
+		 <input type="name" name*="Nom" id*="Nom" placeholder="Ecrire votre Nom ici" required/><br><br>
+          <label for="Prénom">*Prénom: </label>		 
+		  <input type="first name" name*="Prénom" id*="Prénom" placeholder="Ecrire votre Prénom ici" required/><br><br>
+		 <label for="Sexe">Sexe:</label>		 
+		 <input type="radio" name="Sexe" value="Masculin">
 		 <label for="Masculin">Masculin</label>
-		 *<input type="radio" name="Sexe" value="Feminin/>
+		 <input type="radio" name="Sexe" value="Feminin">
 		 <label for="Féminin">Féminin</label><br><br>
 		 <label for="Adresse">Adresse: </label>		 
-		 *<input type="Adress" name="Adresse"><br><br>
+		 <input type="Adress" name*="Adresse" id*="Adresse" placeholder="Ecrire votre adresse ici" required/><br><br>
          <label for="Téléphone">Téléphone: </label>		 
-		 *<input type="phone" name="Téléphone"><br><br>
-	      <label for="Courier Electronique">Courier Electronique: </label>		 
-		 <input type="e-mail" name="Courier Electronique"><br><br>
+		 <input type="phone" name*="Téléphone" id*="Téléphone" placeholder="Ecrire votre numero de telephone ici" required/><br><br>
+	      <label for="Courier Electronique">Courier Electronique: </label>	 
+		 <input type="e-mail" name="Courier Electronique" placeholder="Ecrire votre E-mail ici"><br><br>
 	     <label for="date de naissance">Date de naissance: </label>		 
-		 *<input type="date" name="date"><br><br>
+		 <input type="date" name*="date" id*="date de naissance" required/><br><br>
 	     <label for="Lieu de naissance">Lieu de naissance: </label>		 
-		 <input type="City" name="Lieu de naissance"><br><br>
-		 <select name="Liste deroulente">
+		 <input type="City" name="Lieu de naissance" placeholder="Ecrire votre date de naissance"><br><br>
+		 <select name="liste deroulente">
 		 <option value="Faculté de Doits & des Sciences Economiques">Faculté de Doits & des Sciences Economiques</option>
 		 <option value="Faculté d'Ethnolgie">Faculté d'Ethnolgie</option>
 		 <option value="Faculté de Médecine & Famacolgie">Faculté de Médecine & Famacolgie</option>
 		 <option value="Faculté Science Humaine">Faculté Science Humaine</option>
 		 </select><br>
+		 <textarea id="msg name="user_message></textarea><br>
+		 <label for="msg">Message:</label><br>
 	     <button type"submit">Envoyer</button>
-		 
-	  </Form>
-
-
-
-
+	     <button type"submit">Reinitialiser</button>
 
 
 
