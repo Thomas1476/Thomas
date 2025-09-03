@@ -5,36 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Devoir CSS</title>
     <style>
+        
     .navbar{
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background-color: rgb(20, 221, 221);
-      color: rgb(54, 5, 145);
+      background-color: rgb(206, 219, 176);
+      color: rgb(46, 7, 218);
+      
     }
     .menu a{
-        color: rgb(67, 148, 219);
-        text-decoration:overline;
+        color: rgb(8, 44, 247);
+        text-decoration:none;
         font-size: 20px;
-        font-weight: 500;
-        .menu li{
-            color: beige;
-            list-style: none;
-        }
-
+        font-weight: 300;
     }
-  
-
+     .menu ul{
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+           font-size: 20px;
+            }
+     .logo{
+        display: flex;
+        align-items: center;
+        gap: 20px; 
+     }
+     .logo-img{
+        height: 60px;
+        width: 60PX;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid blue;
+        box-shadow: 0 0 10px;        ;
+        
+     }
     </style>
 </head>
 <body>
      <header class="navbar">
          <div class="logo">
-            <img src="Eglise.jpg" alt="Le logo de l'Eglise">
-            <span><b>Eglise de Dieu la Porte Etroite</b></span>
+            <img src="logo.jpg" alt="Le logo" class="logo-img">
+            <span class="logo-text"><b>Eglise de Dieu la Porte Etroite</b></span>
          </div>
-         <div>
+         <div class="menu">
              <nav>
                  <ul>
                      <li><a href="#Eglise">Eglise</a></li>
@@ -43,14 +58,41 @@
                  </ul>
              </nav>
          </div>
-
-
      </header>
-           
-
+     <section Eglise>
+        <section id="Eglise">
+            <h1>Eglise</h1>
+            <img src="Photo.jpg" alt="logo">
+            <P>
+             <b>L'histoire de l'Eglise:</b> <br>
+             Elle est fondée le 26 Mai 1981 à Carrefour <br>
+             Elle est commencée dans la galerie d'une maison <br>
+             Maintenant, nous avons une grande assemblée <br>
+             Dirigée par les Rev. Jean PHILIPPE & Félix NOVIUS 
+            </P>
+             <section id="A propos">
+            <h1>A propos</h1>
+            <img src="Assemblee.jpg" alt="logo">
+            <P>
+             <b>L'horaire de l'Eglise:</b> <br>
+             Elle fonctionne comme suit: <br>
+             Dimanche AM 6:30 - 8:00 : Leçon dominicale <br>
+                         8:00 - 10:00 Culte d'adoration et de Louange <br>
+             Dimanche PM 5:00 - 7:00 Service <br>
+             Mercredi PM 5:00 - 7:00 Etude de la parole de Dieu <br>
+             Vendredi PM 5:00 - 7:00  Service de Prière et d'intercession <br>    
+            </P>
 </body>
 <footer>
-<p>&copy; 2025 Mon site . Tous droits reservé.</p>
+    <section id="Contact">
+            <p><b>Contact</b></p>
+            <P>
+             Nous sommes à Lamentin 54 à la rue Cocteau 3C # 51 <br>
+             E-mail: eglisededieuporteetroite2@gmail.com <br>
+             Les numéros de contact: <br>
+             (+509) 3403 5000 / 
+            </P>
+<h3><b>&copy; 2025 Tous droits reservés.</b></h3>
 
 </footer>
 </html>
